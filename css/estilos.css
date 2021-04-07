@@ -1,0 +1,96 @@
+/* Criando estilos padrões nativos dos comandos em html5 */
+
+h1{
+/*                 font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(102, 1, 1);
+*/            }
+p{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(87, 4, 4);
+}
+
+body{
+    background-color: rgb(182, 222, 248);
+}
+
+/* Criando estilos de classe para serem aplicados em uma página em html5 */
+.menu{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(17, 17, 65);
+}
+
+.formatar_texto{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+
+.titulo{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(102, 1, 1);
+}
+
+/* Criando estilos para formatar nosso formulário */
+.campo_nome{
+    position: relative;
+    left: 19px;
+    width: 215px;
+    background-color: yellow;
+    color: green;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.campo_email{
+    position: relative;
+    left: 19px;
+    width: 240px;
+    background-color: yellow;
+    color: green; 
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botao{
+    color: rgb(128, 230, 11);
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Criando uma formatação de css para componentes */
+#formulario_contato{
+    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(17, 17, 65);
+}
+
+/* Criando estilos que serão utilizados na nossa página em BootStrap */
+.container{
+    border: 3px solid red;
+}
+
+.div1{
+    background-color: yellow;
+}
+
+.div2{
+    background-color: yellowgreen;
+}
+
+.div3{
+    background-color: rgb(204, 70, 70);
+}
+
+.div4{
+    background-color: rgb(93, 93, 223);
+}
